@@ -63,3 +63,13 @@ img {
   max-width: 51.3rem;
   margin: auto;
 }
+
+
+/* Image Containers */
+.image-container {
+
+}
+
+.image-container img {
+  opacity: 0.7;
+}
