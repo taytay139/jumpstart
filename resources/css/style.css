@@ -39,3 +39,27 @@ img {
   font-size: 1.1rem;
   font-weight: 600;
 }
+
+
+/* Jumbotron */
+.jumbotron {
+  height: 44rem;
+  padding-top: 10rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/jumbotron-bike.jpg");
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron h1 {
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
