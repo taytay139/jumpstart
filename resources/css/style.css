@@ -86,19 +86,19 @@ img {
   margin: auto;
 }
 
-.jumbotron-bike {
+.background-bike {
   background-image: url("../images/jumbotron-bike.jpg");
 }
 
-.jumbotron-beer {
+.background-beer {
   background-image: url("../images/jumbotron-beer.jpg");
 }
 
-.jumbotron-flowers {
+.background-flowers {
   background-image: url("../images/jumbotron-flowers.jpg");
 }
 
-.jumbotron-duffel {
+.background-duffel {
   background-image: url("../images/jumbotron-duffel.jpg");
 }
 
@@ -107,6 +107,7 @@ img {
   top: -16rem;
   width: 100%;
   text-align: center;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 767px) {

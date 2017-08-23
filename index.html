@@ -28,7 +28,7 @@
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid">
 
         <!-- Navigation List -->
         <ul class="nav navbar-nav">
@@ -38,58 +38,68 @@
         </ul>
 
         <!-- Logo -->
-        <img src="resources\images\logo.png" class="navbar-brand navbar-right navbar-collapse">
+        <img src="resources\images\logo.png" class="navbar-brand navbar-right collapse navbar-collapse">
       </div>
     </nav>
 
 
 
     <!-- Jumbotron -->
-    <div class="carousel">
-      <!-- Bike -->
-      <div class="jumbotron jumbotron-bike">
-        <h1>Get Going</h1>
-        <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+    <div class="carousel slick-initialized slick-slider">
+        <div aria-live="polite" class="slick-list">
+          <div class="slick-track" role="listbox" style="opacity: 1; width: 3918px; transform: translate3d(-1306px, 0px, 0px);">
 
-        <div class="relative-wrapper">
-          <a href="#" class="btn btn-primary btn-lg">Jump in</a>
-        </div>
-      </div>
+            <div class="jumbotron background-duffel slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 653px;">
+              <div class="container-fluid">
+                <h1>GET STARTED.</h1>
+                <p>What are you waiting for? Today's the day for your next big idea.</p>
+              </div>
+            </div>
 
+            <div class="jumbotron background-bike slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 653px;">
+              <div class="container-fluid">
+                <h1>GET GOING.</h1>
+                <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+              </div>
+            </div>
 
-      <!-- Beer -->
-      <div class="jumbotron jumbotron-beer">
-        <h1>GET THINKING.</h1>
-        <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+            <div class="jumbotron background-beer slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide01" style="width: 653px;">
+              <div class="container-fluid">
+                <h1>GET THINKING.</h1>
+                <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+              </div>
+          </div>
 
-        <div class="relative-wrapper">
-          <a href="#" class="btn btn-primary btn-lg">Jump in</a>
-        </div>
-      </div>
+          <div class="jumbotron background-flowers slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide02" style="width: 653px;">
+            <div class="container-fluid">
+              <h1>GET CREATING.</h1>
+              <p>Stop overthinking projects and begin putting them out into the world.</p>
+            </div>
+          </div>
 
+          <div class="jumbotron background-duffel slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide03" style="width: 653px;">
+            <div class="container-fluid">
+              <h1>GET STARTED.</h1>
+              <p>What are you waiting for? Today's the day for your next big idea.</p>
+            </div>
+          </div>
 
-      <!-- Flowers -->
-      <div class="jumbotron jumbotron-flowers">
-        <h1>GET CREATING.</h1>
-        <p>Stop overthinking projects and begin putting them out into the world.</p>
-
-        <div class="relative-wrapper">
-          <a href="#" class="btn btn-primary btn-lg">Jump in</a>
-        </div>
-      </div>
-
-
-      <!-- Duffel -->
-      <div class="jumbotron jumbotron-duffel">
-        <h1>GET STARTED.</h1>
-        <p>What are you waiting for? Today's the day for your next big idea.</p>
-
-        <div class="relative-wrapper">
-          <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+          <div class="jumbotron background-bike slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 653px;">
+            <div class="container-fluid">
+              <h1>GET GOING.</h1>
+              <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
+    <!-- Button -->
+    <div class=" row relative-wrapper">
+      <div class="btn btn-primary btn-lg">
+        Jump in
+      </div>
+    </div>
 
 
 
